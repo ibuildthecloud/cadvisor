@@ -27,7 +27,7 @@ import (
 	"github.com/containerd/containerd/containers"
 	"github.com/containerd/containerd/dialer"
 	"github.com/containerd/containerd/errdefs"
-	ptypes "github.com/gogo/protobuf/types"
+	ptypes "github.com/golang/protobuf/ptypes/empty"
 	"google.golang.org/grpc"
 )
 
